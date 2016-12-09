@@ -21,22 +21,23 @@ img {
     text-align: center;
     font-family: monospace;
     font-size: 5em;
+    
 }
 
 .title {
-    text-align: center;
     color: white; 
+    position: relative;
+    bottom: 30px;
 }
 
-h1 {
-    text-align: center;
-}
+
 
 .temp {
-    text-align: center;
+    
     font-family: monospace;
     font-size: 2em;
-    margin-bottom: 1em;
+    position: relative;
+    bottom: 20px;
 }
 
 .city {
@@ -68,12 +69,9 @@ section {
     flex-shrink: 0;
     flex-basis: 200px;
     /*Shorthand*/
-    flex: 1 0 200px;
-    
-    /*Flexbox as Parent*/
-    
-    
+    flex: 1 0 200px;    
 }
+
 
 
 /********************
@@ -115,7 +113,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
 	body {
-       background: red;
+       background: white;
 	}
 	
 }
